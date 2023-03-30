@@ -1,0 +1,40 @@
+column,type,label,description
+address,text,Address,"Block or intersection of seizure
+"
+total_count,int4,Total Count,Total number of fire arms seized.
+other_count,int4,Other Count,Number of unclassified fire arms seized
+pistol_count,int4,Pistol Count,Number of pistols seized
+revolver_count,int4,Revolver Count,"Number of revolver seized
+"
+rifle_count,int4,Rifle Count,Number of rifles seized
+shotgun_count,int4,Shotgun Count,Number of shotguns seized
+year,int4,Year ,Year of fire arm seizure
+month,int4,Month,Month of fire arm seizure
+dow,int4,Day of the Week,"Day of the week of fire arm seizure.
+
+* 0 - Sunday
+* 1 - Monday
+* 2 - Tuesday
+* 3 - Wednesday
+* 4 - Thursday
+* 5 - Friday
+* 6 - Saturday
+"
+neighborhood,text,Neighborhod,"Neighborhood where fire arm seizure took place
+"
+council_district,text,Council District,"Council District where fire arm seizure took place
+"
+ward,text,Ward,"Ward where fire arm seizure took place
+"
+tract,text,Census Tract,"2010 Census Tract where fire arm seizure took place
+"
+public_works_division,text,Public Works Division,"DPW Division where fire arm seizure took place
+"
+police_zone,text,Police Zone,"Police Zone where fire arm seizure took place
+"
+fire_zone,text,Fire Zone,"Fire Zone where fire arm seizure took place
+"
+latitude,float8,Latitude,"Latitude of generalized address
+"
+longitude,float8,Longitude,"Longitude of generalized address
+"
